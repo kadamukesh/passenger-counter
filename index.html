@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCA</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        <h1 style="margin-top: 20px; margin-bottom: 20px; font-size: 40px; color: #FFD700; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); transition: color 0.3s ease, transform 0.3s ease; cursor: pointer;"
+            onmouseover="this.style.color='#ff4500'; this.style.transform='scale(1.1)';"
+            onmouseout="this.style.color='#FFD700'; this.style.transform='scale(1)';">
+            Peoples Entered:
+        </h1>
+
+    <h1 id="count-el" style="margin: 10px 0; font-size: 60px; color: #ffffff; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+        0</h1>
+
+<button id="increment-btn" onclick="increment()">INCREMENT</button>
+<button id="save-btn" onclick="save()">SAVE</button>
+<p id="save-el"
+    style="margin-top: 30px; font-size: 34px; font-style: italic; color: #FFD700; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9); transition: color 0.3s ease, transform 0.3s ease; cursor: pointer;"
+    onmouseover="this.style.color='#ff4500'; this.style.transform='scale(1.05)';"
+    onmouseout="this.style.color='#FFD700'; this.style.transform='scale(1)';">
+    People Entries:
+</p>
+    <script src="index.js"></script>
+</body>
+</html>
